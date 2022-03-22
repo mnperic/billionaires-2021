@@ -33,15 +33,17 @@
       // Dimple.js Chart construction code
         var myChart = new dimple.chart(svg, data);
         var x = myChart.addCategoryAxis("x", "Country");
-        var y = myChart.addMeasureAxis("y", "Number of Billionaires");
+        var y1 = myChart.addMeasureAxis("y", "Number of Billionaires");
+        var y2 = myChart.addMeasureAxis("y", "Total Net Worth Average");
         x.title = "Country";
-        y.title = "Total";
+        y1.title = "Total";
+        y2.title = "Total Net Worth Average";
         x.fontSize = "8";
         y.fontSize = "auto";
         x.dateParseFormat = "%Y";
         x.showGridlines = true;
-        myChart.addSeries(null, dimple.plot.line);
-        myChart.addSeries(null, dimple.plot.scatter);
+        myChart.addSeries(null, dimple.plot.line, [x, y1, y2]);
+        myChart.addSeries(null, dimple.plot.scatter, [x, y1, y2]);
         myChart.draw();
       };
     </script>
