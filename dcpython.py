@@ -106,7 +106,7 @@ billionaires2_df_dc.isnull().sum()
 # billionaires2_table=(billionaires2_df_dc.to_html())
 # generate the data HTML file for the billionaires dataframe
 
-# billionaires2_df_dc.to_html('output/billionaires2_table_dc.html')
+# billionaires2_df_dc.to_html('output/billionaires2_table_dc.html') renamed billionaires_profile_2021 when copied under templates
 billionaires2_geo_dc = billionaires2_df_dc[["Name", "Country", "geometry", "NetWorth", "Age", "Source", "Rank"]]
 # billionaires2_df_dc.to_json(r'output/billionaires2_geo_dc.json')
 b_df = billionaires2_df_dc.sort_values(by = ['NetWorth'],ascending = False).reset_index().head(10)
