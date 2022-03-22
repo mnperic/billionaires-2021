@@ -33,17 +33,15 @@
       // Dimple.js Chart construction code
         var myChart = new dimple.chart(svg, data);
         var x = myChart.addCategoryAxis("x", "Country");
-        var y1 = myChart.addMeasureAxis("y", "Number of Billionaires");
-        var y2 = myChart.addMeasureAxis("y", "Total Net Worth Average");
+        var y = myChart.addMeasureAxis("y", "Number of Billionaires");
         x.title = "Country";
-        y1.title = "Total";
-        y2.title = "Total Net Worth Average";
+        y.title = "Total";
         x.fontSize = "8";
         y.fontSize = "auto";
         x.dateParseFormat = "%Y";
         x.showGridlines = true;
-        myChart.addSeries(null, dimple.plot.line, [x, y1, y2]);
-        myChart.addSeries(null, dimple.plot.scatter, [x, y1, y2]);
+        myChart.addSeries(null, dimple.plot.line);
+        myChart.addSeries(null, dimple.plot.scatter);
         myChart.draw();
       };
     </script>
@@ -55,7 +53,7 @@
       /* Use D3 (not dimple.js) to load the TSV file
         and pass the contents of it to the draw function
       */
-      d3.tsv("data/number-of-billionaires.tsv", draw);
+      d3.tsv("data/number-of-billionaires-1.tsv", draw);
     </script>
   </body>
 </html>
