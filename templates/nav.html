@@ -1,0 +1,39 @@
+
+{% block navbar %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-tabs">
+            <a href="/" title="Go to Home Page" class="nav-title" style="text-decoration: none;" >
+              <h1>World's Billionaires</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>       
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: cyan; font-size: large;" title="Click to Select a Visualisation">Visualisations</a>       
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:cadetblue">
+                    <a class="dropdown-item" href="leaflet">Geographic View</a>
+                    <a class="dropdown-item" href="dimple">Billionaires by Country</a>
+                    <a class="dropdown-item" href="industries_view">Top Industries</a>
+                    <a class="dropdown-item" href="billionaire_profile">Billionaires Profile</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us" style="color: cyan; font-size: large;" 
+                      title="The project team">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="jsonData" style="color: cyan; font-size: large;" 
+                      title="Navigate out to new tab" target="_blank">JsonData</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+
+{%endblock%}

@@ -130,3 +130,8 @@ dmypy.json
 
 config.js
 config.py
+
+*.backup
+*.vscode
+*backup
+*.

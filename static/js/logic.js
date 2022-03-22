@@ -1,8 +1,8 @@
 
 // create variables for the billionaires and counting data
 
-var bUrl ="../data/bgeojsoncountdc1.geojson";
-var cUrl = "../data/bgeojsoncountdc1.geojson";
+var bUrl ="js/bgeojsoncountdc1.js";
+var cUrl = "js/bgeojsoncountdc1.js";
 
 // read the data
 d3.json(bUrl, function(data) {

@@ -1,0 +1,32 @@
+[
+ {
+  "winner_name": "Elon Musk",
+  "win": "$3.7 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D1699%26cropX2%3D3845%26cropY1%3D559%26cropY2%3D2704\");",
+  "winner_profile": "https://www.forbes.com/profile/elon-musk/?listuri=rtb"
+ },
+ {
+  "winner_name": "Zhong Shanshan",
+  "win": "$3.1 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60380e390357bc1fbfc0bc32%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D116%26cropX2%3D1327%26cropY1%3D201%26cropY2%3D1413\");",
+  "winner_profile": "https://www.forbes.com/profile/zhong-shanshan/?listuri=rtb"
+ },
+ {
+  "winner_name": "Warren Buffett",
+  "win": "$2.9 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5babb7f1a7ea4342a948b79a%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D748%26cropX2%3D3075%26cropY1%3D1753%26cropY2%3D4082\");",
+  "winner_profile": "https://www.forbes.com/profile/warren-buffett/?listuri=rtb"
+ },
+ {
+  "winner_name": "Mukesh Ambani",
+  "win": "$1.7 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089\");",
+  "winner_profile": "https://www.forbes.com/profile/mukesh-ambani/?listuri=rtb"
+ },
+ {
+  "winner_name": "Iris Fontbona",
+  "win": "$1.3 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c6db2974bbe6f0ec75418f0%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D124%26cropX2%3D491%26cropY1%3D0%26cropY2%3D367\");",
+  "winner_profile": "https://www.forbes.com/profile/iris-fontbona/?listuri=rtb"
+ }
+]

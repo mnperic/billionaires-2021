@@ -1,0 +1,148 @@
+{% include "nav.html" %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Standard html page settings -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>World's Billionaires</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/sort.js"></script>
+  <link href="css/sortable-table.css" rel="stylesheet"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <!-- Search jquery -->
+  <script>
+  $(document).ready(function(){
+    $("#searchInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#searchTable tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+
+  </script>
+
+
+
+</head>
+<!-- {% block navbar %}{%endblock%} -->
+<body>
+  
+
+  <div class="wrapper hero" >
+    <div class="text-center">
+      <h3 style="color: yellow;">World's Real-time Billionaires</h3>
+      <h5><a href="/scrape" button class="btn btn-primary" style="vertical-align:middle; font-size:medium ; border-radius: 8px;" 
+        title="Scrap latest data from Forbes">Scrape Real-time Data</a></h5>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-center" style="padding-top: 30px;">
+          <div id="winners" style="color:lime;" class="col-sm-2"><h4><b>Top Earners</b></h4></div>
+          {% for w in bills.winners %}
+          <div class="col-sm-2">
+            <a href="{{w.winner_profile}}" target="_blank">
+            <img style="max-width:40%; max-height:40%;  margin-bottom: 5px;" src="{{w.winner_photo}}" class="zoom"
+                onerror="this.onerror=null; this.src='images/bitcoin-sv-1.svg'" alt=""
+                title="Open profile in Forbes page"></a>
+            <p style="font-size: small; color: white;">{{w.winner_name}}</p>
+            <p style="font-size: small; color: white;"><span style="color:lime">&#x25B2;</span>{{w.win}}</p>
+          </div>
+          {% endfor %}
+        </div>  
+        <div class="row align-items-center" style="padding-top: 20px;">
+        <div id="losers" style="color:red" class="col-sm-2"><h4><b>Top Losers</b></h4></div>
+          {% for l in bills.losers %}
+          <div class="col-sm-2">
+            <a href="{{l.loser_profile}}" target="_blank">
+              <img style="max-width:40%; max-height:40%; margin-bottom: 5px;" src="{{l.loser_photo}}" class="zoom"
+                  onerror="this.onerror=null; this.src='images/bitcoin-sv-1.svg'" alt=""
+                  title="Open profile in Forbes page"></a>
+            <p style="font-size: small; color: white;">{{l.loser_name}}</p>
+            <p style="font-size: small; color: white;"><span style="color:red">&#x25BC;</span>{{l.lost}}	</p>
+          </div>
+          {% endfor %}
+        </div>
+    </div>    
+
+    <div class="container">
+      <div class="row" style="padding-top: 30px;">   
+        <div class="col-md-2">
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="color: white;">Enter any keyword:</div>
+              <div class="panel-body">
+                <div class="filter" style="color:white; font-size: 12px;">
+                <input class= "list-group-item" id="searchInput" type="text" placeholder="Search..." style="background-color: white;"></div>
+            </div>
+          </aside>
+        </div>
+        
+        <div class="col-md-10">
+          <div id="table-area">
+            <table id="ufo-table" class="table table-striped sortable divScroll">
+              <thead>
+                <tr>
+                  <th class="table-head">Image</th>
+                  <th class="table-head num" style="cursor:pointer; color: white;" title="Click to sort">
+                    <button>Rank<span aria-hidden="true"></span></th>
+                  <th class="table-head" style="cursor:pointer; color: white;" title="Click to sort">
+                    <button>Name<span aria-hidden="true"></span></th>
+                  <th class="table-head">Age </th>
+                  <th class="table-head">Gender</th>
+                  <th class="table-head">Networth</th>
+                  <th class="table-head">Sources</th>
+                  <th class="table-head" style="cursor:pointer; color: white;" title="Click to sort">
+                    <button>Industries<span aria-hidden="true"></span></th>
+                  <th class="table-head" style="cursor:pointer; color: white;" title="Click to sort">
+                    <button>Country<span aria-hidden="true"></span></th>
+                </tr>
+              </thead>
+              <tbody id="searchTable">
+                {% for item in bills.all %}
+                  <tr style="color:white;" class="item">
+                    <td>
+                        <img class="zoom" style="max-width:20%; max-height:20%;" src="{{item.squareImage}}"
+                            onerror="this.onerror=null; this.src='images/bitcoin-sv-1.svg'" alt="">
+                    </td>
+                    <td style="vertical-align: middle;">{{item.rank}}</td>
+                    <td style="vertical-align: middle;">{{item.personName}}</td>
+                    <td style="vertical-align: middle;">{{item.age}}</td>
+                    <td style="vertical-align: middle;">{{item.gender}}</td>
+                    <td style="vertical-align: middle;">{{item.net}}</td>
+                    <td style="vertical-align: middle;">{{item.source}}</td>
+                    <td style="vertical-align: middle;">{{item.industries}}</td>
+                    <td style="vertical-align: middle;">{{item.countryOfCitizenship}}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
