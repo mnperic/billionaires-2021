@@ -69,6 +69,14 @@ def aboutUs():
 def profile():
     return(render_template("billionaires_profile.html"))
 
+@app.route("/map_age")
+def map_age():
+    return(render_template("density_map_age.html"))
+
+@app.route("/net_worth")
+def map_networth():
+    return(render_template("billionaires_netWorth.html"))
+
 #################################################
 
 
