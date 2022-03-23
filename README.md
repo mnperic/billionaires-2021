@@ -51,7 +51,7 @@ A <b>Python/Flask-powered API</b> was used to push data onto the database. Pytho
 
 Multiple <b>JavaScript</b> libraries were used to plot the data in an interactive way. 
 
-#### Leaflet
+#### Leaflet (*requires user API key)
 
 <b>Leaflet</b> was used to plot Billiionaire information on a global map. When hovered, front-end information is revealed, showing billionaire names and their respective net-worth based on their geographical location. 
 
