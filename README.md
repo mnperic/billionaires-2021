@@ -90,7 +90,7 @@ Multiple <b>JavaScript</b> libraries were used to plot the data in an interactiv
 ## Summary
 
 <p align="center">
-  <img src="https://github.com/mnperic/billionaires-2021/blob/main/images/Top_10_countrues_DC_Fig4.png" alt="top_10"/>
+  <img src="https://github.com/mnperic/billionaires-2021/blob/main/images/Top_10_countries_DC_Fig4.png" alt="top_10"/>
 </p>
 
 In 2021, <b>USA</b> had the most billionaires in the world – home to <b>57.6%</b> of global billionaires.
