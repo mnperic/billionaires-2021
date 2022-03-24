@@ -47,7 +47,7 @@ def home():
 
 
 #################################################
-# Route to another page
+# Route to other html pages
 #################################################
 @app.route("/leaflet")
 def leaflet():

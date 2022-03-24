@@ -1,7 +1,10 @@
+// Get the sorting columns by using css classes
+
 class SortableTable {
     constructor(tableNode) {
       this.tableNode = tableNode;
   
+      // Set the selected table header as "this" pointer
       this.columnHeaders = tableNode.querySelectorAll('thead th');
   
       this.sortColumns = [];
@@ -31,6 +34,7 @@ class SortableTable {
       }
     }
   
+    // Sort data in the column when the table header "button" is clicked
     setColumnHeaderSort(columnIndex) {
       if (typeof columnIndex === 'string') {
         columnIndex = parseInt(columnIndex);
@@ -64,6 +68,7 @@ class SortableTable {
       }
     }
   
+    // sort the data by ascending/descending order by comparing a & b values and swapping position until the end of the column
     sortColumn(columnIndex, sortValue, isNumber) {
       function compareValues(a, b) {
         if (sortValue === 'ascending') {

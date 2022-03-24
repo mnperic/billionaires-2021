@@ -1,11 +1,5 @@
 [
  {
-  "loser_name": "Sergey Brin",
-  "lost": "- $1.3 B",
-  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7c254bbe6f78090d831f%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D475%26cropX2%3D2887%26cropY1%3D168%26cropY2%3D2582\");",
-  "loser_profile": "https://www.forbes.com/profile/sergey-brin/?listuri=rtb"
- },
- {
   "loser_name": "Larry Page",
   "lost": "- $1.3 B",
   "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76bcaaa7ea43100043c836%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D227%26cropX2%3D2022%26cropY1%3D22%26cropY2%3D1817\");",
@@ -24,8 +18,14 @@
   "loser_profile": "https://www.forbes.com/profile/jeff-bezos/?listuri=rtb"
  },
  {
+  "loser_name": "Ma Huateng",
+  "lost": "- $1.9 B",
+  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F605e23c0f0986f688fbd3e15%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D1080%26cropY1%3D0%26cropY2%3D1080\");",
+  "loser_profile": "https://www.forbes.com/profile/ma-huateng/?listuri=rtb"
+ },
+ {
   "loser_name": "Bernard Arnault",
-  "lost": "- $5.1 B",
+  "lost": "- $3.7 B",
   "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5dc05518ca425400079c659f%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4000%26cropY1%3D1209%26cropY2%3D5212\");",
   "loser_profile": "https://www.forbes.com/profile/bernard-arnault/?listuri=rtb"
  }
