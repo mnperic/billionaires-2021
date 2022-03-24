@@ -77,6 +77,10 @@ def map_age():
 def map_networth():
     return(render_template("billionaires_netWorth.html"))
 
+@app.route("/top_ten_countries")
+def top_ten():
+    return(render_template("top_10_countries.html"))
+
 #################################################
 
 
@@ -104,8 +108,6 @@ def scrape():
     # Load the data that just had been scrapped to the database
     mongo.db.forbes_data.update_one({}, {"$set": bills_data}, upsert=True)
    
-    print(f"\n\n---------------------------------->mongo DB calling ....\n\n\n")
-
     # Return to the homepage
     return redirect("/")
 #################################################

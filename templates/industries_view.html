@@ -26,17 +26,21 @@
 
 <body>
 
-    <div class="container">
+    <div class="container" style="width:900px">
     <h1> Top Money Making Industries</h1>
     <div>
-        <div id="chartContainer" style="background: white;">
+        <div id="chartContainer" style="background: white; padding-left: 50px;padding-top: 20px;">
             <script type="text/javascript">
-            var svg2 = dimple.newSvg("#chartContainer", 690, 400);
+            var svg2 = dimple.newSvg("#chartContainer", 690, 420);
             d3.tsv("js/all_billionaires.js", function (data) {
                 var myChart = new dimple.chart(svg2, data);
-                myChart.setBounds(195, 30, 550, 330)
-                myChart.addMeasureAxis("x", "net");
+                myChart.setBounds(155, 30, 550, 330)
+                x = myChart.addMeasureAxis("x", "net");
                 y = myChart.addCategoryAxis("y", "industries");
+                x.title = "Net Worth (in Billions)";
+                x.fontSize = "12";
+                y.title = "Industries";
+                y.fontSize = "12";
                 y.addOrderRule("industries", true);
                 myChart.addSeries("", dimple.plot.bar);
                 myChart.draw();
