@@ -28,7 +28,7 @@ The application can be executed in as follows:
 
 1 – Update the <b>config.js</b> file in the folder <b>/static/js</b> with the valid <b>API key</b><br></br>
 2 – In terminal <b>(python kernel)</b> type command:  <b>python bills_app.py</b>/b><br></br>
-3 – Click on the link that appears in the terminal, e.g. <b>http://127.0.01:500/</b></b>
+3 – Click on the link that appears in the terminal, e.g. <b>http://127.0.01:5000/</b></b>
 
 ## Method
 ### Applications
