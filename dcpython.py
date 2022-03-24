@@ -173,6 +173,8 @@ fig.update_layout(title = 'Top 10 Countries',
 
                   font = dict(size = 16, color = '#4c8486'))
 # savefig('Images/Top_10_countrues_DC_Fig4.png')
+fig.write_html("output/Top_10_countrues_DC_Fig4.html")
+
 fig.show()
 billionaires2_geo_dc1 = billionaires2_df_dc[["Name", "Country", "geometry", "NetWorth", "Age", "Source", "Rank"]]
  
