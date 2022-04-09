@@ -1,32 +1,32 @@
 [
  {
-  "winner_name": "Leonid Mikhelson",
+  "winner_name": "Zhong Shanshan",
+  "win": "$2.1 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60380e390357bc1fbfc0bc32%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D116%26cropX2%3D1327%26cropY1%3D201%26cropY2%3D1413\");",
+  "winner_profile": "https://www.forbes.com/profile/zhong-shanshan/?listuri=rtb"
+ },
+ {
+  "winner_name": "Robin Zeng",
   "win": "$1.9 B",
-  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6229141941920264022edc8a%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D81%26cropX2%3D3456%26cropY1%3D941%26cropY2%3D4318\");",
-  "winner_profile": "https://www.forbes.com/profile/leonid-mikhelson/?listuri=rtb"
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6067bcb1bfd36aed75c0c223%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D19%26cropX2%3D1080%26cropY1%3D19%26cropY2%3D1080\");",
+  "winner_profile": "https://www.forbes.com/profile/robin-zeng/?listuri=rtb"
  },
  {
-  "winner_name": "Gennady Timchenko",
-  "win": "$1.9 B",
-  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F622b778d7c4aefebd5cbea11%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D2317%26cropY1%3D426%26cropY2%3D2744\");",
-  "winner_profile": "https://www.forbes.com/profile/gennady-timchenko/?listuri=rtb"
+  "winner_name": "Wang Wei",
+  "win": "$1.3 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5dc05174b4d505000678d99e%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D879%26cropX2%3D2088%26cropY1%3D805%26cropY2%3D2013\");",
+  "winner_profile": "https://www.forbes.com/profile/wang-wei/?listuri=rtb"
  },
  {
-  "winner_name": "Masayoshi Son",
-  "win": "$1.6 B",
-  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e8b632801879f000703e485%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4500%26cropY1%3D833%26cropY2%3D5330\");",
-  "winner_profile": "https://www.forbes.com/profile/masayoshi-son/?listuri=rtb"
+  "winner_name": "Li Xiting",
+  "win": "$1.1 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F61114d1ee2a2505345419c4e%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D949%26cropY1%3D0%26cropY2%3D950\");",
+  "winner_profile": "https://www.forbes.com/profile/li-xiting/?listuri=rtb"
  },
  {
-  "winner_name": "Vladimir Potanin",
-  "win": "$1.5 B",
-  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e87ae86582b5d00068ce78c%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D1187%26cropX2%3D4259%26cropY1%3D272%26cropY2%3D3347\");",
-  "winner_profile": "https://www.forbes.com/profile/vladimir-potanin/?listuri=rtb"
- },
- {
-  "winner_name": "Vagit Alekperov",
-  "win": "$1.5 B",
-  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F62291dbe5c22ffeaf37a7528%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D232%26cropX2%3D1762%26cropY1%3D83%26cropY2%3D1614\");",
-  "winner_profile": "https://www.forbes.com/profile/vagit-alekperov/?listuri=rtb"
+  "winner_name": "Mukesh Ambani",
+  "win": "$1.1 B",
+  "winner_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089\");",
+  "winner_profile": "https://www.forbes.com/profile/mukesh-ambani/?listuri=rtb"
  }
 ]

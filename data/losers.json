@@ -1,32 +1,32 @@
 [
  {
-  "loser_name": "Larry Page",
+  "loser_name": "Elon Musk",
   "lost": "- $1.3 B",
-  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76bcaaa7ea43100043c836%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D227%26cropX2%3D2022%26cropY1%3D22%26cropY2%3D1817\");",
-  "loser_profile": "https://www.forbes.com/profile/larry-page/?listuri=rtb"
+  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D1699%26cropX2%3D3845%26cropY1%3D559%26cropY2%3D2704\");",
+  "loser_profile": "https://www.forbes.com/profile/elon-musk/?listuri=rtb"
  },
  {
-  "loser_name": "Larry Ellison",
-  "lost": "- $1.4 B",
-  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e8b62cfc095010007bffea0%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4529%26cropY1%3D652%26cropY2%3D5184\");",
-  "loser_profile": "https://www.forbes.com/profile/larry-ellison/?listuri=rtb"
- },
- {
-  "loser_name": "Jeff Bezos",
+  "loser_name": "Zhong Huijuan",
   "lost": "- $1.5 B",
-  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5bb22ae84bbe6f67d2e82e05%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D627%26cropX2%3D1639%26cropY1%3D129%26cropY2%3D1142\");",
-  "loser_profile": "https://www.forbes.com/profile/jeff-bezos/?listuri=rtb"
+  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e9f5b3df0b8cf0006295fec%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D1080%26cropX2%3D1674%26cropY1%3D936%26cropY2%3D1530\");",
+  "loser_profile": "https://www.forbes.com/profile/zhong-huijuan/?listuri=rtb"
  },
  {
-  "loser_name": "Ma Huateng",
+  "loser_name": "Viatcheslav Kantor",
   "lost": "- $1.9 B",
-  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F605e23c0f0986f688fbd3e15%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D1080%26cropY1%3D0%26cropY2%3D1080\");",
-  "loser_profile": "https://www.forbes.com/profile/ma-huateng/?listuri=rtb"
+  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e77900110380d0006fbc0e1%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D59%26cropX2%3D2068%26cropY1%3D151%26cropY2%3D2162\");",
+  "loser_profile": "https://www.forbes.com/profile/viatcheslav-kantor/?listuri=rtb"
  },
  {
   "loser_name": "Bernard Arnault",
-  "lost": "- $3.7 B",
+  "lost": "- $3 B",
   "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5dc05518ca425400079c659f%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4000%26cropY1%3D1209%26cropY2%3D5212\");",
   "loser_profile": "https://www.forbes.com/profile/bernard-arnault/?listuri=rtb"
+ },
+ {
+  "loser_name": "Jeff Bezos",
+  "lost": "- $3 B",
+  "loser_photo": "https://thumbor.forbes.com/thumbor/200x200/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5bb22ae84bbe6f67d2e82e05%2F200x200.jpg%3Fbackground%3D000000%26cropX1%3D627%26cropX2%3D1639%26cropY1%3D129%26cropY2%3D1142\");",
+  "loser_profile": "https://www.forbes.com/profile/jeff-bezos/?listuri=rtb"
  }
 ]
